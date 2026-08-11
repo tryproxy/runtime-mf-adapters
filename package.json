@@ -1,13 +1,69 @@
 {
-  "name": "runtime-mf-adapters",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@platform/runtime-mf-adapters",
+  "version": "0.1.0",
+  "description": "Framework mount adapters for the Runtime MF Contract",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "import": "./dist/react/index.js"
+    },
+    "./angular": {
+      "types": "./dist/angular/index.d.ts",
+      "import": "./dist/angular/index.js"
+    }
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "prepare": "pnpm build"
+  },
+  "peerDependencies": {
+    "@angular/core": "^21.0.0",
+    "@angular/platform-browser": "^21.0.0",
+    "@platform/runtime-mf-contract": "^0.4.0",
+    "react": "^18.3.0 || ^19.0.0",
+    "react-dom": "^18.3.0 || ^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@angular/core": {
+      "optional": true
+    },
+    "@angular/platform-browser": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@angular/common": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@angular/platform-browser": "^21.2.0",
+    "@platform/runtime-mf-contract": "github:tryproxy/runtime-mf-contract#v0.4.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "rxjs": "~7.8.0",
+    "typescript": "~5.9.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@platform/runtime-mf-contract"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryproxy/runtime-mf-adapters.git"
+  },
+  "license": "MIT",
   "packageManager": "pnpm@10.33.2"
 }

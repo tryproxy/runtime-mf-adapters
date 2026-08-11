@@ -1,0 +1,159 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@angular/common':
+        specifier: ^21.2.0
+        version: 21.2.19(@angular/core@21.2.19(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core':
+        specifier: ^21.2.0
+        version: 21.2.19(rxjs@7.8.2)
+      '@angular/platform-browser':
+        specifier: ^21.2.0
+        version: 21.2.19(@angular/common@21.2.19(@angular/core@21.2.19(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.19(rxjs@7.8.2))
+      '@platform/runtime-mf-contract':
+        specifier: github:tryproxy/runtime-mf-contract#v0.4.0
+        version: https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/31aa6df8844aa1f6fd762556e4b52ba9c6c4358d
+      '@types/react':
+        specifier: ^19.1.10
+        version: 19.2.18
+      '@types/react-dom':
+        specifier: ^19.1.7
+        version: 19.2.4(@types/react@19.2.18)
+      react:
+        specifier: ^19.1.1
+        version: 19.2.8
+      react-dom:
+        specifier: ^19.1.1
+        version: 19.2.8(react@19.2.8)
+      rxjs:
+        specifier: ~7.8.0
+        version: 7.8.2
+      typescript:
+        specifier: ~5.9.2
+        version: 5.9.3
+
+packages:
+
+  '@angular/common@21.2.19':
+    resolution: {integrity: sha512-Rvo/VXI0kUmfQT7+OeAjv526OJlf/WrLnJq1Tz84Jkyv9bs9SOMTCT6m4+boo8gxVNdrcxvGU3Q0o2jZzKceSg==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
+    peerDependencies:
+      '@angular/core': 21.2.19
+      rxjs: ^6.5.3 || ^7.4.0
+
+  '@angular/core@21.2.19':
+    resolution: {integrity: sha512-PVoXD1kBexOJLkFzKx2zBY/0oZJXGru0eGn2hu0q5n3vkZlYsR1yRolfGenK1gZE48Qibiw/ttg/X/pAIPEZGg==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
+    peerDependencies:
+      '@angular/compiler': 21.2.19
+      rxjs: ^6.5.3 || ^7.4.0
+      zone.js: ~0.15.0 || ~0.16.0
+    peerDependenciesMeta:
+      '@angular/compiler':
+        optional: true
+      zone.js:
+        optional: true
+
+  '@angular/platform-browser@21.2.19':
+    resolution: {integrity: sha512-YMguYVhdkV8tr9MvbN+VpMjbdmsYq6g12M9WPvAYM51BkL2iREbWeoXDGmfCw9G0it6+0pMdgrSPFFUFuOqpAQ==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
+    peerDependencies:
+      '@angular/animations': 21.2.19
+      '@angular/common': 21.2.19
+      '@angular/core': 21.2.19
+    peerDependenciesMeta:
+      '@angular/animations':
+        optional: true
+
+  '@platform/runtime-mf-contract@https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/31aa6df8844aa1f6fd762556e4b52ba9c6c4358d':
+    resolution: {tarball: https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/31aa6df8844aa1f6fd762556e4b52ba9c6c4358d}
+    version: 0.4.0
+
+  '@types/react-dom@19.2.4':
+    resolution: {integrity: sha512-Bsc+QHgp+P/F02XDzNCY9jnZNCUuLki36KT7VKrTXXLdHf+vHMNZnW1rVu5DNW/rCK+fya3DATySbLM4yhtKUw==}
+    peerDependencies:
+      '@types/react': ^19.2.0
+
+  '@types/react@19.2.18':
+    resolution: {integrity: sha512-AnzbBERsrLKtk2XSfTbYRLjQPdy116Sty4q+T+Bp3IC4l6jNBvreVPAHmpq9qhXQM7CXZPjLVmGMw9sy+hxQ3w==}
+
+  csstype@3.2.3:
+    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+
+  react-dom@19.2.8:
+    resolution: {integrity: sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==}
+    peerDependencies:
+      react: ^19.2.8
+
+  react@19.2.8:
+    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
+    engines: {node: '>=0.10.0'}
+
+  rxjs@7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
+
+  scheduler@0.27.0:
+    resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
+
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  '@angular/common@21.2.19(@angular/core@21.2.19(rxjs@7.8.2))(rxjs@7.8.2)':
+    dependencies:
+      '@angular/core': 21.2.19(rxjs@7.8.2)
+      rxjs: 7.8.2
+      tslib: 2.8.1
+
+  '@angular/core@21.2.19(rxjs@7.8.2)':
+    dependencies:
+      rxjs: 7.8.2
+      tslib: 2.8.1
+
+  '@angular/platform-browser@21.2.19(@angular/common@21.2.19(@angular/core@21.2.19(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.19(rxjs@7.8.2))':
+    dependencies:
+      '@angular/common': 21.2.19(@angular/core@21.2.19(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core': 21.2.19(rxjs@7.8.2)
+      tslib: 2.8.1
+
+  '@platform/runtime-mf-contract@https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/31aa6df8844aa1f6fd762556e4b52ba9c6c4358d': {}
+
+  '@types/react-dom@19.2.4(@types/react@19.2.18)':
+    dependencies:
+      '@types/react': 19.2.18
+
+  '@types/react@19.2.18':
+    dependencies:
+      csstype: 3.2.3
+
+  csstype@3.2.3: {}
+
+  react-dom@19.2.8(react@19.2.8):
+    dependencies:
+      react: 19.2.8
+      scheduler: 0.27.0
+
+  react@19.2.8: {}
+
+  rxjs@7.8.2:
+    dependencies:
+      tslib: 2.8.1
+
+  scheduler@0.27.0: {}
+
+  tslib@2.8.1: {}
+
+  typescript@5.9.3: {}
