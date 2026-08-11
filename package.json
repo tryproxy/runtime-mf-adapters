@@ -20,7 +20,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit -p tsconfig.json",
-    "prepare": "pnpm build"
+    "prepare": "pnpm build",
+    "release": "bumpp"
   },
   "peerDependencies": {
     "@angular/core": "^21.0.0",
@@ -50,6 +51,7 @@
     "@platform/runtime-mf-contract": "github:tryproxy/runtime-mf-contract#v0.4.0",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
+    "bumpp": "^12.2.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "rxjs": "~7.8.0",
