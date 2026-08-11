@@ -24,13 +24,11 @@ The remote supplies its root component, providers, root-input configuration, and
 
 ## Installation
 
-Until the first release tag exists, sibling repositories may use a local file dependency:
+Install an immutable release tag:
 
 ```bash
-pnpm add @platform/runtime-mf-adapters@file:../runtime-mf-adapters
+pnpm add 'github:tryproxy/runtime-mf-adapters#v0.1.2'
 ```
-
-Before release, replace that file dependency with an immutable package revision.
 
 React, ReactDOM, and Angular are optional peer dependencies. Each consumer supplies only its own framework runtime.
 
