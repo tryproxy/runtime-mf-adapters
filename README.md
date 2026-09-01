@@ -24,7 +24,7 @@ The remote supplies its root component, providers, root-input configuration, and
 
 ## Installation
 
-Install an immutable release tag:
+Install an immutable release tag (pnpm 11, Node 22+):
 
 ```bash
 pnpm add 'github:tryproxy/runtime-mf-adapters#v0.1.2'
@@ -35,6 +35,7 @@ React, ReactDOM, and Angular are optional peer dependencies. Each consumer suppl
 ## Verification
 
 ```bash
+pnpm ci
 pnpm typecheck
 pnpm build
 ```
