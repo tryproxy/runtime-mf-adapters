@@ -1,6 +1,6 @@
 {
   "name": "@platform/runtime-mf-adapters",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Framework mount adapters for the Runtime MF Contract",
   "type": "module",
   "sideEffects": false,
