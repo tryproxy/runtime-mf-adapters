@@ -24,7 +24,7 @@ The remote supplies its root component, providers, root-input configuration, and
 
 ## Installation
 
-Install an immutable release tag (pnpm 11, Node 22+):
+Install an immutable release tag (pnpm 11, Node 22.13+):
 
 ```bash
 pnpm add 'github:tryproxy/runtime-mf-adapters#v0.1.3'
