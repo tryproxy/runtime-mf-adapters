@@ -20,7 +20,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit -p tsconfig.json",
-    "prepare": "npm run build",
+    "prepare": "npm run build && husky",
+    "format:fix": "prettier --write .",
     "release": "bumpp"
   },
   "peerDependencies": {
@@ -55,6 +56,9 @@
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "bumpp": "^12.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.9.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "rxjs": "~7.8.0",
@@ -65,5 +69,8 @@
     "url": "git+https://github.com/tryproxy/runtime-mf-adapters.git"
   },
   "license": "MIT",
+  "lint-staged": {
+    "**/*.{js,ts,json,md,yml,yaml}": "prettier --write"
+  },
   "packageManager": "pnpm@11.25.0+sha512.5cde925b4f075f725eb71fbae18a42ffe784524789f19b61c731cb8721ec28aaee160e01a8d5af4fedb2a42cdbf300efe23db356b0d4a17b4d63e11f8ab7c956"
 }
