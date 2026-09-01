@@ -1,5 +1,9 @@
 # pnpm 11 project config (this is not a multi-package workspace).
 # Git-hosted contract runs `prepare` to emit dist. Repo URL (no commit)
 # covers every tag from this repository.
+# Keep the pnpm store outside a mounted project root. pnpm 11 can otherwise
+# recurse while preparing an allowed Git dependency (pnpm/pnpm#13602).
+storeDir: ${HOME}/.pnpm-store
+
 allowBuilds:
-  '@platform/runtime-mf-contract@git+https://github.com/tryproxy/runtime-mf-contract.git': true
+  "@platform/runtime-mf-contract@git+https://github.com/tryproxy/runtime-mf-contract.git": true
