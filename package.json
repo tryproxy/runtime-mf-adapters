@@ -51,7 +51,7 @@
     "@angular/common": "^21.2.0",
     "@angular/core": "^21.2.0",
     "@angular/platform-browser": "^21.2.0",
-    "@platform/runtime-mf-contract": "github:tryproxy/runtime-mf-contract#v0.5.2",
+    "@platform/runtime-mf-contract": "github:tryproxy/runtime-mf-contract#v0.5.3",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "bumpp": "^12.2.0",

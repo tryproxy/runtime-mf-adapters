@@ -1,5 +1,5 @@
 # pnpm 11 project config (this is not a multi-package workspace).
 # Git-hosted contract runs `prepare` to emit dist; pnpm 11 needs the exact
-# git-tarball key. Update it if the v0.5.2 resolution SHA changes.
+# git-tarball key. Update it if the v0.5.3 resolution SHA changes.
 allowBuilds:
-  '@platform/runtime-mf-contract@https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/546f3e816f1490a5326483c52b0cb1ea775a034e': true
+  '@platform/runtime-mf-contract@https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/c856d8d1b1027ef081cd2c0889fd8935b23f01e5': true

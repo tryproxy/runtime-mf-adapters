@@ -18,8 +18,8 @@ importers:
         specifier: ^21.2.0
         version: 21.2.19(@angular/common@21.2.19(@angular/core@21.2.19(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.19(rxjs@7.8.2))
       '@platform/runtime-mf-contract':
-        specifier: github:tryproxy/runtime-mf-contract#v0.5.2
-        version: https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/546f3e816f1490a5326483c52b0cb1ea775a034e
+        specifier: github:tryproxy/runtime-mf-contract#v0.5.3
+        version: https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/c856d8d1b1027ef081cd2c0889fd8935b23f01e5
       '@types/react':
         specifier: ^19.1.10
         version: 19.2.18
@@ -75,9 +75,10 @@ packages:
       '@angular/animations':
         optional: true
 
-  '@platform/runtime-mf-contract@https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/546f3e816f1490a5326483c52b0cb1ea775a034e':
-    resolution: {tarball: https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/546f3e816f1490a5326483c52b0cb1ea775a034e}
-    version: 0.5.2
+  '@platform/runtime-mf-contract@https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/c856d8d1b1027ef081cd2c0889fd8935b23f01e5':
+    resolution: {gitHosted: true, integrity: sha512-4ZZtqGvj9nophyzw2XyUo8NKLOwuVNcn5pq17qcq9CwzxknGTehsc4bAy1gouIfI384VCAOP/b1MDL8j/W9VmQ==, tarball: https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/c856d8d1b1027ef081cd2c0889fd8935b23f01e5}
+    version: 0.5.3
+    engines: {node: '>=22.12.0'}
 
   '@quansync/fs@1.0.0':
     resolution: {integrity: sha512-4TJ3DFtlf1L5LDMaM6CanJ/0lckGNtJcMjQ1NAV6zDmA0tEHKZtxNKin8EgPaVX1YzljbxckyT2tJrpQKAtngQ==}
@@ -199,7 +200,7 @@ snapshots:
       '@angular/core': 21.2.19(rxjs@7.8.2)
       tslib: 2.8.1
 
-  '@platform/runtime-mf-contract@https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/546f3e816f1490a5326483c52b0cb1ea775a034e': {}
+  '@platform/runtime-mf-contract@https://codeload.github.com/tryproxy/runtime-mf-contract/tar.gz/c856d8d1b1027ef081cd2c0889fd8935b23f01e5': {}
 
   '@quansync/fs@1.0.0':
     dependencies:
